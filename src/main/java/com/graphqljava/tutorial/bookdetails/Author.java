@@ -18,7 +18,10 @@ public class Author {
     private static List<Author> authors = Arrays.asList(
             new Author("author-1", "Joanne", "Rowling"),
             new Author("author-2", "Herman", "Melville"),
-            new Author("author-3", "Anne", "Rice")
+            new Author("author-3", "Anne", "Rice"),
+            new Author("author-4", "Cormac", "McCarthy"),
+            new Author("author-5", "Joe", "Blow"),
+            new Author("author-6", "Linda", "Malinda")
     );
 
     public static Author getById(String id) {
